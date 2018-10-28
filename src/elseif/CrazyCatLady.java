@@ -18,11 +18,13 @@ if(a>2) {
 	JOptionPane.showMessageDialog(null, "You are a crazy cat lady.");
 }
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
-else if(a>0); {
+else if(a<3 && a>0) {
+	
+
+		// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
+} else if (a == 0) {
 	
 }
-		// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
-		
 	}
 
 	static void playVideo(String videoURL) {
