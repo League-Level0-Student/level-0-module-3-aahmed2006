@@ -24,9 +24,6 @@ for(int i = 0; i < 6; i++) {
 rob.turn(144);
 rob.move(30);
 }
-rob.turn(180);
-rob.move(10);
-rob.turn(144);
 rob.penUp();
 rob.move(50);
 
