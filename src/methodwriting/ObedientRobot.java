@@ -27,6 +27,7 @@ public class ObedientRobot {
 	public static void drawSquare() {
 		rob.setSpeed(75);
 		rob.penDown();
+		rob.hide();
 		for(int i = 0; i < 4; i++) {
 			rob.move(200);
 			rob.turn(90);
@@ -35,6 +36,7 @@ public class ObedientRobot {
 	public static void drawTriangle() {
 	rob.setSpeed(75);
 		rob.penDown();
+		rob.hide();
 		for(int ii=0; ii<3; ii++) {
 			rob.move(150);
 			rob.turn(120);
@@ -43,6 +45,7 @@ public class ObedientRobot {
 	public static void drawCircle() {
 		rob.setSpeed(100);
 		rob.penDown();
+		rob.hide();
 		for(int iii=0; iii < 360; iii++) {
 			rob.move(1);
 			rob.turn(1);
